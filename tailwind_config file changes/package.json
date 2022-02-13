@@ -1,0 +1,21 @@
+{
+  "name": "tailwind_config-file-changes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.22"
+  },
+  "dependencies": {
+    "vite": "^2.8.1"
+  }
+}

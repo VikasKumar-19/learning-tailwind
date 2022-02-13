@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+
+.btn{
+    @apply text-2xl bg-green-400 text-red-900 rounded-2xl px-4 py-2
+}
+
+@tailwind utilities;
+
+.smart_bg{
+    @apply bg-red-200 text-gray-800 py-4 px-2 w-80
+}
+/* layer directive allow us to put our classes just after the starting of a layer see the example*/
+
+@layer utilities{
+    .btn_two{
+        @apply bg-slate-800 text-sm font-bold text-lime-200 rounded-xl px-8 py-3
+    }
+}
+
+/* here we have seen that btn_two is appeared to come on top of the utilities class and then smart_bg class came. */
